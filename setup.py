@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-PROJECT = 'virtualenvwrapper.django'
+PROJECT = 'virtualenvwrapper.django_template'
 VERSION = '0.1'
 
 from setuptools import setup, find_packages
@@ -14,9 +14,10 @@ except IOError:
 setup(
     name=PROJECT,
     version=VERSION,
-    description='virtualenvwrapper plugin to create a template django application',
+    description='virtualenvwrapper plugin to create a template Django application',
     long_description=long_description,
     author='Chris Proto',
+    url='http://chrispro.to/projects/virtualenvwrapper-django-template',
     author_email='chroto24@gmail.com',
     classifiers=['Development Status :: 3 - Alpha',
                  'License :: OSI Approved :: BSD License',
