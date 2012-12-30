@@ -18,4 +18,4 @@ Uses a default template from <https://github.com/twitter/bootstrap> to get you s
 
 In order to use your own project template, you must set an environment variable
 
-`export DJANGO_PROJECT=/opt/project_templates/my_other_django_template; mkproject -t django <project_name>`
+`export DJANGO_TEMPLATE=/opt/project_templates/my_other_django_template; mkproject -t django <project_name>`
