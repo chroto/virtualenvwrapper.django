@@ -1,0 +1,7 @@
+Quickly bootstrap a Django app using virtualenvwrapper
+
+Requires:
+- virtualenv
+- virtualenvwrapper
+
+

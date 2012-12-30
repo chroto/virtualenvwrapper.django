@@ -24,7 +24,7 @@ setup(
                  'Programming Language :: Python :: 2',
                  'Intended Audience :: Developers',
                  'Environment :: Console',
-                 'Framework :: django',
+                 'Framework :: Django',
                  ],
     platforms=['Any'],
 
