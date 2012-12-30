@@ -3,5 +3,19 @@ Quickly bootstrap a Django app using virtualenvwrapper
 Requires:
 - virtualenv
 - virtualenvwrapper
+- git
+
+Installation:
+
+`pip install virtualenvwrapper.django_template`
+
+To use:
+
+mkproject -t django <project_name>
+
+Uses a default template from <https://github.com/twitter/bootstrap> to get you started.
 
 
+In order to use your own project template, you must set an environment variable
+
+`export DJANGO_PROJECT=/opt/project_templates/my_other_django_template; mkproject -t django <project_name>`
