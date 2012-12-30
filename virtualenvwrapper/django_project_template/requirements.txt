@@ -1,0 +1,11 @@
+-e git://github.com/fusionbox/django-fusionbox.git#egg=django_fusionbox
+Django
+South
+Werkzeug
+django-cachebuster
+django-compressor
+django-debug-toolbar
+django-extensions
+django-secure
+django-grappelli
+pyScss
